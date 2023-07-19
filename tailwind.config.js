@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Nunito"],
+        body: ["Inter"],
       },
     },
   },
