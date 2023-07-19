@@ -13,32 +13,32 @@ import {
 export default class Navigation extends Component {
   render() {
     return (
-      <div className="flex justify-center flex-col align-center w-fit gap-5 fixed right-5 inset-y-0">
+      <div className="flex justify-center flex-col align-center w-fit gap-5 md:fixed right-5 inset-y-0">
         <a
           href="#home"
-          className="bg-zinc-700 p-2 lg:p-3 text-white rounded-full hover:bg-yellow-400 "
+          className="bg-zinc-700 p-2 text-white rounded-full hover:bg-yellow-400 "
         >
-          <HouseDoorFill size={20} />
+          <HouseDoorFill size={15} />
         </a>
 
         <a
           href="#about"
-          className="bg-zinc-700 p-2 lg:p-3  text-white rounded-full hover:bg-yellow-400 "
+          className="bg-zinc-700 p-2 text-white rounded-full hover:bg-yellow-400 "
         >
-          <PersonFill size={20} />
+          <PersonFill size={15} />
         </a>
         <a
           href="#works"
-          className="bg-zinc-700 p-2 lg:p-3  text-white rounded-full hover:bg-yellow-400 "
+          className="bg-zinc-700 p-2 text-white rounded-full hover:bg-yellow-400 "
         >
-          <Briefcase size={20} />
+          <Briefcase size={15} />
         </a>
 
         <a
           href="#contact"
-          className="bg-zinc-700 p-2 lg:p-3  text-white rounded-full hover:bg-yellow-400 "
+          className="bg-zinc-700 p-2 text-white rounded-full hover:bg-yellow-400 "
         >
-          <Envelope size={20} />
+          <Envelope size={15} />
         </a>
       </div>
     );

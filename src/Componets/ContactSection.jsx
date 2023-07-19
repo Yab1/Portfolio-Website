@@ -16,8 +16,8 @@ export default class ContactSection extends Component {
   render() {
     return (
       <section
-        id="about"
-        className="h-fit font-body py-5 px-5 md:px-10 lg:px-40"
+        id="contact"
+        className="h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
       >
         <title className="flex flex-col justify-center select-none">
           <span className="self-center text-2xl md:text-3xl lg:text-4xl font-black text-white relative uppercase z-10 ">
@@ -28,9 +28,9 @@ export default class ContactSection extends Component {
             contact
           </span>
         </title>
-        <section className="flex gap-16 my-10">
+        <section className="flex flex-col-reverse lg:flex-row gap-16 my-10">
           {/* Left Section */}
-          <section className="flex flex-col gap-5 w-8/12">
+          <section className="flex flex-col gap-5 lg:w-8/12">
             <p className="uppercase text-white text-md lg:text-lg font-extrabold">
               Don't be shy !
             </p>
@@ -62,7 +62,7 @@ export default class ContactSection extends Component {
                 <p className="text-white uppercase">+251931470920</p>
               </div>
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-5 justify-evenly">
               <div className="p-3 text-white bg-zinc-700 w-fit rounded-full hover:bg-yellow-400 active:bg-yellow-400">
                 <Linkedin size={20} />
               </div>
@@ -75,8 +75,8 @@ export default class ContactSection extends Component {
             </div>
           </section>
           {/* Right Section */}
-          <form action="" className="flex flex-col gap-8 w-11/12">
-            <div className="flex gap-5">
+          <form action="" className="flex flex-col gap-5 lg:gap-8 lg:w-11/12">
+            <div className="flex flex-col lg:flex-row gap-5">
               <input
                 type="text"
                 placeholder="YOUR NAME"
@@ -101,7 +101,7 @@ export default class ContactSection extends Component {
               placeholder="YOUR MESSAGE"
               className="bg-zinc-700 rounded px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white"
             ></textarea>
-            <div className="uppercase w-fit border-2 rounded-full pl-5 hover:bg-yellow-400 hover:text-black cursor-pointer text-white">
+            <div className="uppercase w-fit border-2 rounded-full pl-5 hover:bg-yellow-400 hover:text-black cursor-pointer text-white self-center">
               Send message
               <button className="rounded-full bg-yellow-400 p-3 ml-3">
                 <Send />

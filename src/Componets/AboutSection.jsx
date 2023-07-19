@@ -74,7 +74,7 @@ export default class AboutSection extends Component {
             </div>
           </section>
           {/* Card Section */}
-          <section className="grid grid-cols-2 gap-5 md:gap-10 lg:w-full">
+          <section className="grid grid-cols-2 gap-5 md:gap-10 lg:w-full mt-10 lg:mt-0">
             {/* Card One */}
             <div className="border-4 h-fit border-zinc-700 p-3 md:p-5 lg:p-2 xl:p-10">
               <p className="text-yellow-400 text-5xl font-bold flex">

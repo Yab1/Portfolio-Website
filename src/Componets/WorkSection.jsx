@@ -7,8 +7,8 @@ export default class WorkSection extends Component {
   render() {
     return (
       <section
-        id="about"
-        className="h-fit font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
+        id="works"
+        className="h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
       >
         <title className="flex flex-col justify-center select-none">
           <span className="self-center text-2xl md:text-3xl lg:text-4xl font-black text-white relative uppercase z-10 ">
@@ -19,7 +19,7 @@ export default class WorkSection extends Component {
             portfolio
           </span>
         </title>
-        <section className="flex flex-col md:flex-row gap-5 mt-10">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
           {/* Card-One */}
           <div className="w-full h-40 lg:h-80 bg-zinc-900 rounded p-3">
             <div className="flex justify-between">

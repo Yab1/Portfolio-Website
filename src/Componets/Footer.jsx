@@ -7,7 +7,7 @@ export default class Footer extends Component {
   render() {
     return (
       <section id="blog" className="h-screen py-5">
-        <title className="flex flex-col justify-center select-none border-2 w-screen">
+        <title className="flex flex-col justify-center select-none w-screen">
           <span className="self-center font-body text-lg md:text-2xl lg:text-4xl font-black text-white relative uppercase z-10 ">
             my
             <span className="text-yellow-400 uppercase"> blog</span>
