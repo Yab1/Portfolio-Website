@@ -10,7 +10,7 @@ export default class AboutSection extends Component {
     return (
       <section
         id="about"
-        className="h-fit font-body py-5 px-5 md:px-10 lg:px-40"
+        className="h-fit font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
       >
         <title className="flex flex-col justify-center select-none">
           <span className="self-center text-2xl md:text-3xl lg:text-4xl font-black text-white relative uppercase z-10 ">
@@ -22,69 +22,51 @@ export default class AboutSection extends Component {
           </span>
         </title>
         {/* Personal Info Section  */}
-        <section className="flex gap-20 my-10">
+        <section className="flex flex-col lg:flex-row gap-5 lg:gap-10 xl:gap-15 my-16">
           {/* Information */}
-          <section className="flex flex-col gap-10 w-2/4">
-            <p className="uppercase text-white text-md lg:text-lg font-extrabold mt-10">
+          <section className="flex flex-col gap-5 md:w-full">
+            <p className="uppercase text-white text-md lg:text-lg font-extrabold">
               Personal Infos
             </p>
-            <div className="flex gap-20 ">
+            <div className="flex gap-8 md:gap-10 xl:gap-15">
               {/* Personal Info Section - Left Side */}
-              <div className="flex flex-col gap-3">
-                <p className="text-zinc-500">
-                  First Name:{" "}
-                  <span className="text-white block md:inline">Yeabsera</span>
+              <div className="flex flex-col gap-3 w-full">
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  First Name:<span className="text-white"> Yeabsera</span>
                 </p>
                 <p className="text-zinc-500">
                   Age:
                   <span className="text-white"> {this.currentYear - 2000}</span>
                 </p>
-                <p className="text-zinc-500">
-                  Freelance:{" "}
-                  <span className="text-white block md:inline">Available</span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Freelance: <span className="text-white">Available</span>
                 </p>
-                <p className="text-zinc-500">
-                  Phone:{" "}
-                  <span className="text-white block md:inline">
-                    +251931470920
-                  </span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Phone: <span className="text-white ">+251931470920</span>
                 </p>
-                <p className="text-zinc-500">
-                  Skype: <span className="text-white">xyz_abc</span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Email:{" "}
+                  <span className="text-white">yabilisanu@gmail.com</span>
                 </p>
               </div>
               {/* Personal Info Section - Right Side */}
-              <div className="flex flex-col gap-3">
-                <p className="text-zinc-500">
-                  Last Name:{" "}
-                  <span className="text-white block md:inline">Lisanework</span>
+              <div className="flex flex-col gap-3 w-full">
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Last Name: <span className="text-white">Lisanework</span>
                 </p>
-                <p className="text-zinc-500">
-                  Nationality:{" "}
-                  <span className="text-white block md:inline">Ethiopian</span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Nationality: <span className="text-white">Ethiopian</span>
                 </p>
-                <p className="text-zinc-500">
-                  Address:{" "}
-                  <span className="text-white block md:inline">
-                    Addis Ababa
-                  </span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Address: <span className="text-white">Addis Ababa</span>
                 </p>
-                <p className="text-zinc-500">
-                  Email:{" "}
-                  <span className="text-white block md:inline">
-                    yabilisanu@gmail.com
-                  </span>
-                </p>
-                <p className="text-zinc-500">
-                  Language:{" "}
-                  <span className="text-white block md:inline">
-                    Amharic, English
-                  </span>
+                <p className="text-zinc-500 flex gap-1 flex-wrap">
+                  Language: <span className="text-white">Amharic, English</span>
                 </p>
               </div>
             </div>
             {/* Download CV */}
-            <div className="uppercase w-fit border-2 rounded-full pl-5 hover:bg-yellow-400 hover:text-black cursor-pointer text-white">
+            <div className="uppercase self-center lg:self-start w-fit border-2 rounded-full pl-5 hover:bg-yellow-400 hover:text-black cursor-pointer text-white xl:mt-10">
               download cv
               <button className="rounded-full bg-yellow-400 p-3 ml-3">
                 <Download />
@@ -92,9 +74,9 @@ export default class AboutSection extends Component {
             </div>
           </section>
           {/* Card Section */}
-          <section className="flex gap-10 mt-10 w-2/4 flex-wrap cursor-default">
+          <section className="grid grid-cols-2 gap-5 md:gap-10 lg:w-full">
             {/* Card One */}
-            <div className="border-4 h-fit w-full lg:w-2/6 border-zinc-700 p-5">
+            <div className="border-4 h-fit border-zinc-700 p-3 md:p-5 lg:p-2 xl:p-10">
               <p className="text-yellow-400 text-5xl font-bold flex">
                 3<span className="text-xl">+</span>
               </p>
@@ -109,7 +91,7 @@ export default class AboutSection extends Component {
               </div>
             </div>
             {/* Card Two */}
-            <div className="border-4 h-fit w-full lg:w-2/6 border-zinc-700 p-5">
+            <div className="border-4 h-fit border-zinc-700 p-3 md:p-5 lg:p-2 xl:p-10">
               <p className="text-yellow-400 text-5xl font-bold flex">
                 10<span className="text-xl">+</span>
               </p>
@@ -124,7 +106,7 @@ export default class AboutSection extends Component {
               </div>
             </div>
             {/* Card Three */}
-            <div className="border-4 h-fit w-full lg:w-2/6 border-zinc-700 p-5">
+            <div className="border-4 h-fit border-zinc-700 p-3 md:p-5 lg:p-2 xl:p-10">
               <p className="text-yellow-400 text-5xl font-bold flex">
                 5<span className="text-xl">+</span>
               </p>
@@ -139,7 +121,7 @@ export default class AboutSection extends Component {
               </div>
             </div>
             {/* Card Four */}
-            <div className="border-4 h-fit w-full lg:w-2/6 border-zinc-700 p-5">
+            <div className="border-4 h-fit border-zinc-700 p-3 md:p-5 lg:p-2 xl:p-10">
               <p className="text-yellow-400 text-5xl font-bold flex">
                 15<span className="text-xl">+</span>
               </p>
@@ -156,152 +138,150 @@ export default class AboutSection extends Component {
           </section>
         </section>
         {/* Skills Section */}
-        <section className="flex flex-col items-center my-20">
-          <p className="uppercase text-white text-md lg:text-lg font-extrabold mb-10">
+        <section className="flex flex-col gap-10 items-center">
+          <p className="uppercase text-white text-lg lg:text-lg font-extrabold">
             my skills
           </p>
-          <div className="self-center grid grid-cols-2 lg:grid-cols-4 gap-x-40 gap-y-16">
+          <div className="self-center grid grid-cols-3 md:grid-cols-4 gap-x-10 md:gap-x-40 gap-y-8 md:gap-y-16">
             {/* HTML */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 216deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">60%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">60%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">html</p>
+              <p className="uppercase text-white text-xs md:text-base">html</p>
             </div>
             {/* CSS */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 270deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">75%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">75%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">css</p>
+              <p className="uppercase text-white text-xs md:text-base">css</p>
             </div>
             {/* JAVASCRIPT */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 288deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">80%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">80%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">
+              <p className="uppercase text-white text-xs md:text-base">
                 JAVASCRIPT
               </p>
             </div>
             {/* REACT */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 288deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">80%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">80%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">
-                React
-              </p>
+              <p className="uppercase text-white text-xs md:text-base">React</p>
             </div>
             {/* MUI */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 324deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">90%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">90%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">mui</p>
-            </div>
-            {/* SCSS */}
-            <div className="flex items-center flex-col gap-5 w-fit">
-              <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
-                style={{
-                  background: "conic-gradient(#facc15 288deg, #52525b 0deg )",
-                }}
-              >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">80%</p>
-                </div>
-              </div>
-              <p className="uppercase text-white font-md font-semibold">scss</p>
-            </div>
-            {/* TAILWIND */}
-            <div className="flex items-center flex-col gap-5 w-fit">
-              <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
-                style={{
-                  background: "conic-gradient(#facc15 324deg, #52525b 0deg )",
-                }}
-              >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">90%</p>
-                </div>
-              </div>
-              <p className="uppercase text-white font-md font-semibold">
-                tailwind
-              </p>
+              <p className="uppercase text-white text-xs md:text-base">mui</p>
             </div>
             {/* BOOTSTRAP */}
-            <div className="flex items-center flex-col gap-5 w-fit">
+            <div className="flex items-center flex-col gap-2 md:gap-5">
               <div
-                className="h-24 w-24 rounded-full flex justify-center items-center"
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
                 style={{
                   background: "conic-gradient(#facc15 252deg, #52525b 0deg )",
                 }}
               >
-                <div className="h-20 w-20 bg-zinc-800 rounded-full flex justify-center items-center">
-                  <p className="text-white font-bold font-lg">70%</p>
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">70%</p>
                 </div>
               </div>
-              <p className="uppercase text-white font-md font-semibold">
+              <p className="uppercase text-white text-xs md:text-base">
                 Bootstrap
+              </p>
+            </div>
+            {/* SCSS */}
+            <div className="flex items-center flex-col gap-2 md:gap-5">
+              <div
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
+                style={{
+                  background: "conic-gradient(#facc15 288deg, #52525b 0deg )",
+                }}
+              >
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">80%</p>
+                </div>
+              </div>
+              <p className="uppercase text-white text-xs md:text-base">scss</p>
+            </div>
+            {/* TAILWIND */}
+            <div className="flex items-center flex-col gap-2 md:gap-5">
+              <div
+                className="h-16 w-16 md:h-24 md:w-24 rounded-full flex justify-center items-center"
+                style={{
+                  background: "conic-gradient(#facc15 324deg, #52525b 0deg )",
+                }}
+              >
+                <div className="h-14 w-14 md:h-20 md:w-20 bg-zinc-800 rounded-full flex justify-center items-center">
+                  <p className="text-white md:font-bold md:font-lg">90%</p>
+                </div>
+              </div>
+              <p className="uppercase text-white text-xs md:text-base">
+                tailwind
               </p>
             </div>
           </div>
         </section>
         {/* Experience and Education */}
-        <section className="flex flex-col items-center my-20">
-          <p className="uppercase text-white text-md lg:text-lg font-extrabold mb-10">
+        <section className="flex flex-col items-center my-16">
+          <p className="uppercase text-white text-lg lg:text-lg font-extrabold mb-10">
             Experience & Education
           </p>
-          <section className="grid lg:grid-cols-2 grid-cols-1 gap-x-16">
-            {/* Left Side */}
-            <div className="flex flex-col gap-16 gap-16">
+          <section className="grid lg:grid-cols-2 grid-cols-1 gap-x-16 gap-y-8 lg:gap-y-0">
+            {/* Experience Side */}
+            <aside className="flex flex-col gap-8 lg:gap-28">
               {/* Hello Cash */}
               <div className="flex">
                 <div className=" flex flex-col items-center">
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
                     <ArchiveFill />
                   </div>
-                  <span className="border-l-2 h-20 border-zinc-600"></span>
+                  <span className="border-l-2 h-full border-zinc-600"></span>
                 </div>
                 <div className="flex flex-col gap-3 ml-5">
                   <p className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit">
-                    July 2018 – August 2018
+                    July 2018 – Aug 2018
                   </p>
                   <p className="uppercase text-white text-md font-medium">
                     Sales and On-boarding Specialist
@@ -320,11 +300,12 @@ export default class AboutSection extends Component {
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
                     <ArchiveFill />
                   </div>
-                  <span className="border-l-2 h-20 border-zinc-600"></span>
+                  <div></div> <div></div>
+                  <span className="border-l-2 h-full border-zinc-600"></span>
                 </div>
                 <div className=" flex flex-col gap-3 ml-5">
                   <p className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit">
-                    June 2021 – September 2021
+                    June 2021 – Sep 2021
                   </p>
                   <p className="uppercase text-white text-md font-medium">
                     Front End Developer
@@ -340,15 +321,15 @@ export default class AboutSection extends Component {
                   </p>
                 </div>
               </div>
-            </div>
-            {/* Right Side */}
-            <aside className="flex flex-col gap-16">
+            </aside>
+            {/* Education Side */}
+            <aside className="flex flex-col gap-8 lg:gap-16">
               <div className="flex">
                 <div className=" flex flex-col items-center">
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
                     <BookHalf />
                   </div>
-                  <span className="border-l-2 h-24 border-zinc-600"></span>
+                  <span className="border-l-2 h-full border-zinc-600"></span>
                 </div>
                 <div className=" flex flex-col gap-3 ml-5">
                   <p className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit">
@@ -373,7 +354,7 @@ export default class AboutSection extends Component {
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
                     <BookHalf />
                   </div>
-                  <span className="border-l-2 h-24 border-zinc-600"></span>
+                  <span className="border-l-2 h-full border-zinc-600"></span>
                 </div>
                 <div className=" flex flex-col gap-3 ml-5">
                   <p className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit">
