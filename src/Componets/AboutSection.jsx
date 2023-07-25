@@ -156,7 +156,7 @@ export default class AboutSection extends Component {
           </section>
           {/* Card Section */}
           <motion.section
-            className="grid grid-cols-2 gap-7 md:gap-x-10 md:gap-y-5 lg:gap-y-1 lg:gap-x-10 xl:gap-y-8 xl:gap-x-16 lg:w-full mt-10 lg:mt-0"
+            className="grid grid-cols-2 gap-7 md:gap-x-10 md:gap-y-5 lg:gap-y-1 lg:gap-x-10 xl:gap-y-14 xl:gap-x-16 lg:w-full mt-10 lg:mt-0"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
