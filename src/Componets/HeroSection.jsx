@@ -10,7 +10,7 @@ export default class HomeSection extends Component {
   render() {
     const titleVariants = {
       hidden: {
-        x: 300,
+        x: -200,
         opacity: 0,
       },
       visible: {
@@ -65,7 +65,7 @@ export default class HomeSection extends Component {
                   I'm Yeabsera.
                 </p>
                 <motion.p
-                  className="text-white text-xl md:text-xl lg:text-2xl font-black uppercase"
+                  className="text-white text-md md:text-md lg:text-2xl font-black uppercase whitespace-wrap"
                   variants={titleVariants}
                   initial="hidden"
                   whileInView="visible"
