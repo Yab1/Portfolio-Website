@@ -39,12 +39,14 @@ export default class HomeSection extends Component {
       hover: {
         scale: 1.1,
         backgroundColor: "#facc15",
-        color: "black",
+        color: "#020617",
       },
     };
     return (
-      <section id="home" className="h-fit md:h-screen">
-        <Header />
+      <section
+        id="home"
+        className="h-fit md:h-screen font-body py-5 px-5 md:px-10 lg:px-20 xl:px-40"
+      >
         <section className="font-body py-5 grid md:grid-cols-2 grid-cols-1 gap-5">
           <aside className="bg-gradient-to-bl to-yellow-400 from-zinc-800 rounded-sm ps-4 py-4 mx-auto w-8/12 md:w-fit lg:w-8/12 lg:mx-0 border-yellow-400 md:mx-0 h-fit">
             <img
