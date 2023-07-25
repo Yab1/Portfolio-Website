@@ -65,7 +65,7 @@ export default class AboutSection extends Component {
     return (
       <motion.section
         id="about"
-        className="h-fit font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
+        className="h-fit font-body py-5 px-5 md:px-10 lg:px-20 xl:px-40"
       >
         <motion.title
           className="flex flex-col justify-center select-none"
@@ -137,10 +137,12 @@ export default class AboutSection extends Component {
               </motion.div>
             </motion.div>
             {/* Download CV */}
-            <motion.div
+            <motion.a
               className="uppercase self-center lg:self-start w-fit border-2 rounded-full pl-5 cursor-pointer text-white xl:mt-10 transition ease-out duration-500"
               variants={buttonVariants}
               whileHover="hover"
+              download
+              href="src/assets/Yeabsera_Lisanework_Resume.pdf"
             >
               download cv
               <motion.button
@@ -150,7 +152,7 @@ export default class AboutSection extends Component {
               >
                 <Download />
               </motion.button>
-            </motion.div>
+            </motion.a>
           </section>
           {/* Card Section */}
           <motion.section
