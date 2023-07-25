@@ -37,7 +37,7 @@ export default class ContactSection extends Component {
     return (
       <section
         id="contact"
-        className="h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
+        className="h-fit lg:h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
       >
         <motion.title
           className="flex flex-col justify-center select-none"
@@ -93,27 +93,33 @@ export default class ContactSection extends Component {
               </div>
             </div>
             <div className="flex gap-5 justify-evenly">
-              <motion.div
+              <motion.a
                 className="p-3 text-white bg-zinc-700 w-fit rounded-full active:bg-yellow-400 transition ease-out duration-500"
                 variants={buttonVariants}
                 whileHover="hover"
+                href="https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/"
+                target="_blank"
               >
                 <Linkedin size={20} />
-              </motion.div>
-              <motion.div
+              </motion.a>
+              <motion.a
                 className="p-3 text-white bg-zinc-700 w-fit rounded-full active:bg-yellow-400 transition ease-out duration-500"
                 variants={buttonVariants}
                 whileHover="hover"
+                href="https://t.me/CasperWasTaken"
+                target="_blank"
               >
                 <Telegram size={20} />
-              </motion.div>
-              <motion.div
+              </motion.a>
+              <motion.a
                 className="p-3 text-white bg-zinc-700 w-fit rounded-full active:bg-yellow-400 transition ease-out duration-500"
                 variants={buttonVariants}
                 whileHover="hover"
+                href="https://github.com/Yab1"
+                target="_blank"
               >
                 <Github size={20} />
-              </motion.div>
+              </motion.a>
             </div>
           </motion.section>
           {/* Right Section */}
