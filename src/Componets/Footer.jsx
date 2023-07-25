@@ -16,6 +16,26 @@ export default class Footer extends Component {
             posts
           </span>
         </title>
+        <div className=" grid justify-items-center content-center h-full cursor-default">
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+          <p className="uppercase text-zinc-900 font-black text-4xl opacity-40">
+            Coming soon!
+          </p>
+        </div>
       </section>
     );
   }
