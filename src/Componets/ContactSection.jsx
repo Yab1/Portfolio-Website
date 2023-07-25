@@ -73,23 +73,31 @@ export default class ContactSection extends Component {
               <MapFill className="text-yellow-400" size={25} />
               <div>
                 <p className="text-zinc-400 uppercase text-md">Address point</p>
-                <p className="text-white uppercase">
+                <a
+                  href="https://goo.gl/maps/Cwbwy8rGvk49ADsW6"
+                  target="_blank"
+                  className="text-white uppercase"
+                >
                   Koteba ,Addis Ababa ,Ethiopia
-                </p>
+                </a>
               </div>
             </div>
             <div className="flex gap-5">
               <EnvelopeOpenFill className="text-yellow-400" size={25} />
               <div>
                 <p className="text-zinc-400 uppercase text-md">Mail me</p>
-                <p className="text-white">yabilisanu@gmail.com</p>
+                <a href="mailto:yabilisanu@gmail.com" className="text-white">
+                  yabilisanu@gmail.com
+                </a>
               </div>
             </div>
             <div className="flex gap-5">
               <TelephoneFill className="text-yellow-400" size={25} />
               <div>
                 <p className="text-zinc-400 uppercase text-md">call me</p>
-                <p className="text-white uppercase">+251931470920</p>
+                <a href="tel:+251931470920" className="text-white uppercase">
+                  +251931470920
+                </a>
               </div>
             </div>
             <div className="flex gap-5 justify-evenly">
