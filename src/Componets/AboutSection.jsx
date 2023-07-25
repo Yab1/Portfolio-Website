@@ -156,7 +156,7 @@ export default class AboutSection extends Component {
           </section>
           {/* Card Section */}
           <motion.section
-            className="grid grid-cols-2 gap-5 md:gap-10 lg:w-full mt-10 lg:mt-0"
+            className="grid grid-cols-2 gap-7 md:gap-x-10 md:gap-y-5 lg:gap-y-1 lg:gap-x-10 xl:gap-y-8 xl:gap-x-16 lg:w-full mt-10 lg:mt-0"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -169,11 +169,11 @@ export default class AboutSection extends Component {
               <p className="text-yellow-400 text-5xl font-bold flex">
                 3<span className="text-xl">+</span>
               </p>
-              <div className="flex">
+              <div className="flex flex-col sm:flex-row">
                 <p className="text-yellow-400 self-start relative bottom-2">
                   ____
                 </p>
-                <div className="text-white ml-2 capitalize">
+                <div className="text-white ml-2 caflex-col md:flex-rowpitalize">
                   <p className="items-center"> Years of</p>
                   <p>Experience</p>
                 </div>
@@ -187,7 +187,7 @@ export default class AboutSection extends Component {
               <p className="text-yellow-400 text-5xl font-bold flex">
                 10<span className="text-xl">+</span>
               </p>
-              <div className="flex">
+              <div className="flex flex-col sm:flex-row">
                 <p className="text-yellow-400 self-start relative bottom-2">
                   ____
                 </p>
@@ -205,7 +205,7 @@ export default class AboutSection extends Component {
               <p className="text-yellow-400 text-5xl font-bold flex">
                 5<span className="text-xl">+</span>
               </p>
-              <div className="flex">
+              <div className="flex flex-col md:flex-row">
                 <p className="text-yellow-400 self-start relative bottom-2">
                   ____
                 </p>
@@ -223,7 +223,7 @@ export default class AboutSection extends Component {
               <p className="text-yellow-400 text-5xl font-bold flex">
                 15<span className="text-xl">+</span>
               </p>
-              <div className="flex">
+              <div className="flex flex-col md:flex-row">
                 <p className="text-yellow-400 self-start relative bottom-2">
                   ____
                 </p>
@@ -548,4 +548,3 @@ export default class AboutSection extends Component {
     );
   }
 }
-// py-5 md:mx-10 lg:mx-40
