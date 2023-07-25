@@ -9,10 +9,10 @@ import Footer from "./Componets/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Header />
       <Navigation />
-      {/* <HeroSection /> */}
+      <HeroSection />
       <AboutSection />
       <WorkSection />
       <ContactSection />
