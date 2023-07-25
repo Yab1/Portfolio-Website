@@ -23,7 +23,7 @@ export default class Navigation extends Component {
       },
     };
     return (
-      <div className="flex justify-center flex-col align-center w-fit gap-5 md:fixed right-5 inset-y-0">
+      <div className="hidden md:flex md:fixed justify-center flex-col align-center w-fit gap-5 right-5 inset-y-0">
         <motion.a
           href="#home"
           className="bg-zinc-700 p-2 text-white rounded-full"
