@@ -13,6 +13,29 @@ import { motion } from "framer-motion";
 export default class ContactSection extends Component {
   constructor() {
     super();
+    this.state = { name: "", email: "", subject: "", message: "" };
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    const emailRegex = new RegExp(
+      /^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/,
+      "gm"
+    );
+    const isValidEmail = emailRegex.test(this.state.email);
+    if (!isValidEmail) {
+      const emailElement = document.querySelector("#email");
+      emailElement.setCustomValidity("Please enter a valid Gmail address.");
+      emailElement.reportValidity();
+      return;
+    }
+    this.setState(() => ({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    }));
   }
   render() {
     const titleVariants = {
@@ -31,13 +54,14 @@ export default class ContactSection extends Component {
       hover: {
         scale: 1.1,
         backgroundColor: "#facc15",
-        color: "black",
+        color: "#030712",
       },
     };
+    console.log(this.state);
     return (
       <section
         id="contact"
-        className="h-fit lg:h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
+        className="h-fit lg:h-screen font-body py-5 px-5 md:px-10 lg:px-20 xl:px-40"
       >
         <motion.title
           className="flex flex-col justify-center select-none"
@@ -53,7 +77,7 @@ export default class ContactSection extends Component {
             contact
           </span>
         </motion.title>
-        <section className="flex flex-col-reverse lg:flex-row gap-16 my-10">
+        <section className="flex flex-col-reverse gap-18 lg:flex-row lg:gap-16 my-10">
           {/* Left Section */}
           <motion.section
             className="flex flex-col gap-5 lg:w-8/12"
@@ -131,42 +155,88 @@ export default class ContactSection extends Component {
             </div>
           </motion.section>
           {/* Right Section */}
-          <form action="" className="flex flex-col gap-5 lg:gap-8 lg:w-11/12">
+          <form
+            onSubmit={this.handleSubmit}
+            className="flex flex-col gap-8 lg:gap-8 lg:w-11/12 mb-10"
+          >
             <div className="flex flex-col lg:flex-row gap-5">
               <input
+                // required
                 type="text"
                 placeholder="YOUR NAME"
+                value={this.state.name}
+                onInvalid={(e) =>
+                  e.target.setCustomValidity("Please enter your name")
+                }
+                onInput={(e) => e.target.setCustomValidity("")}
+                onChange={(e) =>
+                  this.setState((prev) => ({
+                    ...prev,
+                    name: e.target.value,
+                  }))
+                }
                 className="bg-zinc-700 rounded-full px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white flex-grow"
               />
               <input
-                type="text"
+                required
+                id="email"
+                type="email"
                 placeholder="YOUR EMAIL"
-                className="bg-zinc-700 rounded-full px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white flex-grow"
+                value={this.state.email}
+                onInvalid={(e) =>
+                  e.target.setCustomValidity("Please enter your email")
+                }
+                onInput={(e) => e.target.setCustomValidity("")}
+                onChange={(e) =>
+                  this.setState((prev) => ({
+                    ...prev,
+                    email: e.target.value,
+                  }))
+                }
+                pattern="^[\w-.]+@([\w-]+\.)+gmail\.com$"
+                className="bg-zinc-700 rounded-full px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white flex-grow active:bg-zinc-700"
               />
             </div>
             <input
+              required
               type="text"
               placeholder="YOUR SUBJECT"
+              value={this.state.subject}
+              onInvalid={(e) =>
+                e.target.setCustomValidity("Please enter your subject")
+              }
+              onInput={(e) => e.target.setCustomValidity("")}
+              onChange={(e) =>
+                this.setState((prev) => ({ ...prev, subject: e.target.value }))
+              }
               className="bg-zinc-700 rounded-full px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white"
             />
             <textarea
-              name=""
-              id=""
+              required
               cols="0"
               rows="5"
               placeholder="YOUR MESSAGE"
+              value={this.state.message}
+              onInvalid={(e) =>
+                e.target.setCustomValidity("Please enter your message")
+              }
+              onInput={(e) => e.target.setCustomValidity("")}
+              onChange={(e) =>
+                this.setState((prev) => ({ ...prev, message: e.target.value }))
+              }
               className="bg-zinc-700 rounded px-5 py-2 placeholder-zinc-400 focus:outline-2 focus:outline-yellow-400 text-white"
             ></textarea>
-            <motion.div
-              className="uppercase w-fit border-2 rounded-full pl-5 cursor-pointer text-white self-center transition ease-out duration-500"
+            <motion.button
+              className="uppercase w-fit border-2 rounded-full cursor-pointer text-white self-center transition ease-out duration-500 flex items-center pl-3 gap-3"
               variants={buttonVariants}
               whileHover="hover"
+              type="submit"
             >
               Send message
-              <button className="rounded-full bg-yellow-400 p-3 ml-3">
+              <div className="rounded-full bg-yellow-400 w-fit p-3 relative r-0">
                 <Send />
-              </button>
-            </motion.div>
+              </div>
+            </motion.button>
           </form>
         </section>
       </section>
