@@ -18,7 +18,10 @@ export default class Header extends Component {
     };
 
     return (
-      <header className="font-body text-white bg-zinc-800 flex justify-between py-5 px-5 md:px-10 lg:20 xl:px-40">
+      <header
+        id="home"
+        className="font-body text-white bg-zinc-800 flex justify-between py-5 px-5 md:px-10 lg:20 xl:px-40"
+      >
         <motion.h3
           className="font-semibold cursor-default text-2xl"
           variants={headerVariants}
