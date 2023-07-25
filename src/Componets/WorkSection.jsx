@@ -23,7 +23,7 @@ export default class WorkSection extends Component {
     return (
       <section
         id="works"
-        className="h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
+        className="h-fit lg:h-screen font-body py-5 px-5 md:px-10 lg:20 xl:px-40"
       >
         <motion.title
           className="flex flex-col justify-center select-none"
