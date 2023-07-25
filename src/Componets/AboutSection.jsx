@@ -51,7 +51,7 @@ export default class AboutSection extends Component {
       hover: {
         scale: 1.1,
         backgroundColor: "#facc15",
-        color: "black",
+        color: "#030712",
       },
     };
     const cardVariants = {
@@ -407,7 +407,7 @@ export default class AboutSection extends Component {
           </motion.p>
           <section className="grid lg:grid-cols-2 grid-cols-1 gap-x-16 gap-y-8 lg:gap-y-0">
             {/* Experience Side */}
-            <aside className="flex flex-col gap-8 lg:gap-28">
+            <aside className="flex flex-col gap-10">
               {/* Hello Cash */}
               <div className="flex">
                 <div className=" flex flex-col items-center">
@@ -426,19 +426,18 @@ export default class AboutSection extends Component {
                     className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit"
                     variants={childVariants}
                   >
-                    July 2018 – Aug 2018
+                    Hello Cash
                   </motion.p>
                   <motion.p
                     className="uppercase text-white text-md font-medium"
                     variants={childVariants}
                   >
                     Sales and On-boarding Specialist
-                    <span className="text-zinc-400"> - Hello Cash</span>
                   </motion.p>
                   <motion.p className="text-zinc-400" variants={childVariants}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae facilis vitae numquam illum cupiditate culpa
-                    optio modi soluta fugiat! Culpa.
+                    Accomplished Sales Specialist, adept at driving revenue,
+                    onboarding clients, and surpassing targets. Ready to
+                    contribute to your team's success.
                   </motion.p>
                 </motion.div>
               </div>
@@ -461,28 +460,24 @@ export default class AboutSection extends Component {
                     className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit"
                     variants={childVariants}
                   >
-                    June 2021 – Sep 2021
+                    Marakisoft Technologies
                   </motion.p>
                   <motion.p
                     className="uppercase text-white text-md font-medium"
                     variants={childVariants}
                   >
                     Front End Developer
-                    <span className="text-zinc-400">
-                      {" "}
-                      - Marakisoft Technologies
-                    </span>
                   </motion.p>
                   <motion.p className="text-zinc-400" variants={childVariants}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae facilis vitae numquam illum cupiditate culpa
-                    optio modi soluta fugiat! Culpa.
+                    Front End Developer experienced in crafting user-friendly
+                    experiences and building cutting-edge web applications.
                   </motion.p>
                 </motion.div>
               </div>
             </aside>
             {/* Education Side */}
-            <aside className="flex flex-col gap-8 lg:gap-16">
+            <aside className="flex flex-col gap-10 lg:gap-0">
+              {/* Adama Science and Technology University */}
               <div className="flex">
                 <div className=" flex flex-col items-center">
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
@@ -500,26 +495,22 @@ export default class AboutSection extends Component {
                     className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit"
                     variants={childVariants}
                   >
-                    2023
+                    Adama Science and Technology University
                   </motion.p>
                   <motion.p
                     className="uppercase text-white text-md font-medium"
                     variants={childVariants}
                   >
                     Computer Science and Engineering Degree
-                    <span className="text-zinc-400">
-                      {" "}
-                      - Adama Science and Technology University
-                    </span>
                   </motion.p>
                   <motion.p className="text-zinc-400" variants={childVariants}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae facilis vitae numquam illum cupiditate culpa
-                    optio modi soluta fugiat! Culpa.
+                    Deeply passionate about technology and focused on innovative
+                    problem-solving.
                   </motion.p>
                 </motion.div>
               </div>
-              <div className="flex">
+              {/* The ALX Holberton Software Engineering */}
+              <div className="flex mt-auto mb-5">
                 <div className=" flex flex-col items-center">
                   <div className="bg-yellow-400 text-white w-10 h-10 p-3 rounded-full">
                     <BookHalf />
@@ -536,22 +527,17 @@ export default class AboutSection extends Component {
                     className="text-zinc-400 rounded-full px-3 bg-zinc-700 w-fit"
                     variants={childVariants}
                   >
-                    2023
+                    The ALX Holberton Software Engineering
                   </motion.p>
                   <motion.p
                     className="uppercase text-white text-md font-medium"
                     variants={childVariants}
                   >
-                    Software Engineering Certificate
-                    <span className="text-zinc-400">
-                      {" "}
-                      - The ALX Holberton Software Engineering
-                    </span>
+                    Software Engineering
                   </motion.p>
                   <motion.p className="text-zinc-400" variants={childVariants}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae facilis vitae numquam illum cupiditate culpa
-                    optio modi soluta fugiat! Culpa.
+                    Enthusiastic Software Engineering aspirant, continuously
+                    learning to create impactful solutions.
                   </motion.p>
                 </motion.div>
               </div>
