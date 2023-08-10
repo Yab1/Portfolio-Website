@@ -98,6 +98,7 @@ export default class ContactSection extends Component {
           variants={titleVariants}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true, amount: 0.8 }}
         >
           <span className="self-center text-2xl md:text-3xl lg:text-4xl font-black text-white relative uppercase z-10 ">
             get in
@@ -114,6 +115,7 @@ export default class ContactSection extends Component {
             variants={titleVariants}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true, amount: 0.8 }}
           >
             <motion.p className="uppercase text-white text-md lg:text-lg font-extrabold">
               Don't be shy !

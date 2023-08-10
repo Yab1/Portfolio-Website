@@ -65,7 +65,7 @@ export default class App extends Component {
             ref={this.anchorRef}
             id="go-to-home"
             href="#home"
-            className="bg-zinc-700 p-2 text-white rounded-full fixed bottom-5 right-5"
+            className="bg-zinc-700 p-2 text-white rounded-full fixed bottom-5 right-5 md:hidden"
             variants={buttonVariants}
             whileHover="hover"
           >
