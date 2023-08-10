@@ -33,11 +33,7 @@ Your Portfolio Website is a user-friendly platform designed to help you create a
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td><img src="https://github.com/Yab1/TechVisions/blob/main/src/assets/screenshot.png" alt="Screenshot" width="400"/></td>
-  </tr>
-</table>
+![Screenshot](https://github.com/Yab1/TechVisions/blob/main/src/assets/screenshot.png)
 
 ## Contributing
 
