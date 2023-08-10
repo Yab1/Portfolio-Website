@@ -1,6 +1,6 @@
 # TechVisions - Free to Use Portfolio Website
 
-![TechVisions Logo]()
+![TechVisions Logo](https://github.com/Yab1/TechVisions/blob/main/public/favicon.ico)
 
 Welcome to Your Portfolio Website, a free-to-use platform for creating and showcasing your portfolio online. Whether you're a designer, developer, artist, or professional, this website allows you to present your work and achievements to the world.
 
