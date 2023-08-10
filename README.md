@@ -35,10 +35,7 @@ Your Portfolio Website is a user-friendly platform designed to help you create a
 
 <table>
   <tr>
-    <td><img src="" alt="Hero Section" width="400"/></td>
-    <td><img src="" alt="About Section" width="400"/></td>
-    <td><img src="" alt="Works Section" width="400"/></td>
-    <td><img src="" alt="Contact Section" width="400"/></td>
+    <td><img src="https://github.com/Yab1/TechVisions/blob/main/src/assets/screenshot.png" alt="Screenshot" width="400"/></td>
   </tr>
 </table>
 
