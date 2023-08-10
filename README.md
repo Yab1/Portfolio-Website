@@ -33,7 +33,7 @@ TechVisions is a user-friendly platform designed to help you create and manage y
 
 ## Screenshots
 
-![Screenshot]()
+![Screenshot](https://github.com/Yab1/TechVisions/blob/main/src/assets/screenshot.png)
 
 ## Contributing
 
