@@ -49,12 +49,12 @@ export default class HomeSection extends Component {
     return (
       <section
         id="home"
-        className="h-fit md:h-screen font-body py-5 px-5 md:px-10 lg:px-20 xl:px-40 border md:grid md:content-center"
+        className="h-fit md:h-screen font-body py-5 px-5 md:px-10 lg:px-20 xl:px-40 md:grid md:content-center"
       >
         <section className="font-body py-5 grid md:grid-cols-2 grid-cols-1 gap-5">
           <aside className="bg-gradient-to-bl to-yellow-400 from-zinc-800 rounded-sm ps-4 py-4 mx-auto w-8/12 md:w-fit lg:w-8/12 lg:mx-0 border-yellow-400 md:mx-0 h-fit">
             <img
-              src="src/assets/profile picture.jpg"
+              src="src/assets/profile-picture.svg"
               alt="profile picture"
               className="rounded-xl rounded-r-none relative left-5"
             />
