@@ -2,7 +2,7 @@
 
 ![TechVisions Logo](https://github.com/Yab1/TechVisions/blob/main/public/favicon.ico)
 
-Welcome to Your Portfolio Website, a free-to-use platform for creating and showcasing your portfolio online. Whether you're a designer, developer, artist, or professional, this website allows you to present your work and achievements to the world.
+Welcome to TechVisions Portfolio Website, a free-to-use platform for creating and showcasing your portfolio online. Whether you're a designer, developer, artist, or professional, this website allows you to present your work and achievements to the world.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to Your Portfolio Website, a free-to-use platform for creating and showc
 
 ## About Your Portfolio Website
 
-Your Portfolio Website is a user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
+TechVisions is a user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
 
 ## Features
 
