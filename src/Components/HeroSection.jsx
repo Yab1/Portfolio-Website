@@ -7,6 +7,9 @@ import { motion } from "framer-motion";
 // Bootstrap icons imports
 import { ArrowRight } from "react-bootstrap-icons";
 
+// Data import
+import profile from "../assets/profile picture.jpg";
+
 export default class HomeSection extends Component {
   constructor() {
     super();
@@ -54,7 +57,7 @@ export default class HomeSection extends Component {
         <section className="font-body py-5 grid md:grid-cols-2 grid-cols-1 gap-5">
           <aside className="bg-gradient-to-bl to-yellow-400 from-zinc-800 rounded-sm ps-4 py-4 mx-auto w-8/12 md:w-fit lg:w-8/12 lg:mx-0 border-yellow-400 md:mx-0 h-fit">
             <img
-              src="src/assets/profile-picture.svg"
+              src={profile}
               alt="profile picture"
               className="rounded-xl rounded-r-none relative left-5"
             />
