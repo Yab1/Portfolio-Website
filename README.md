@@ -1,6 +1,6 @@
-# TechVisions - Free to Use Portfolio Website
+# Free to Use Portfolio Website
 
-![TechVisions Logo](https://github.com/Yab1/TechVisions/blob/main/public/favicon.ico)
+![Logo](https://github.com/Yab1/TechVisions/blob/main/public/favicon.ico)
 
 Welcome to TechVisions Portfolio Website, a free-to-use platform for creating and showcasing your portfolio online. Whether you're a designer, developer, artist, or professional, this website allows you to present your work and achievements to the world.
 
@@ -14,7 +14,7 @@ Welcome to TechVisions Portfolio Website, a free-to-use platform for creating an
 
 ## About Your Portfolio Website
 
-TechVisions is a user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
+A user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
 
 ## Features
 
@@ -41,6 +41,6 @@ Contributions are welcome! If you'd like to enhance Your Portfolio Website or ad
 
 ---
 
-Visit TechVisions [Live Demo](https://tech-visions.vercel.app/)  
+Visit [Live Demo](https://tech-visions.vercel.app/)  
 Connect with me:
 Visit my website at [Yeabsera](yeabsera-girxkocyp-yab1.vercel.app) | Follow me on [LinkedIn](https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/) | Check out my [GitHub](https://github.com/Yab1)
