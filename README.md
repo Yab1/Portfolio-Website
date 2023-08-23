@@ -6,13 +6,13 @@ Welcome to TechVisions Portfolio Website, a free-to-use platform for creating an
 
 ## Table of Contents
 
-- [About Your Portfolio Website](#about-your-portfolio-website)
+- [About](#about)
 - [Features](#features)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 
-## About Your Portfolio Website
+## About
 
 A user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
 
@@ -42,5 +42,6 @@ Contributions are welcome! If you'd like to enhance Your Portfolio Website or ad
 ---
 
 Visit Site [Live Demo](https://tech-visions.vercel.app/)  
+
 Connect with me:
 Visit my website at [Yeabsera](yeabsera-girxkocyp-yab1.vercel.app) | Follow me on [LinkedIn](https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/) | Check out my [GitHub](https://github.com/Yab1)
