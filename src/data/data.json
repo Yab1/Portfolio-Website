@@ -1,14 +1,13 @@
 {
   "personal-infos": [
     { "id": 0, "label": "First Name", "value": "Yeabsera" },
-    { "id": 1, "label": "Age", "value": 2000 },
-    { "id": 2, "label": "Freelance", "value": "Available" },
-    { "id": 3, "label": "Phone", "value": "+251931470920" },
-    { "id": 4, "label": "Email", "value": "yabilisanu@gmail.com" },
-    { "id": 5, "label": "Last Name", "value": "Lisanework" },
-    { "id": 6, "label": "Nationality", "value": "Ethiopian" },
-    { "id": 7, "label": "Address", "value": "Addis Ababa" },
-    { "id": 8, "label": "Language", "value": "Amharic, English" }
+    { "id": 1, "label": "Last Name", "value": "Lisanework" },
+    { "id": 2, "label": "Age", "value": 2000 },
+    { "id": 3, "label": "Nationality", "value": "Ethiopian" },
+    { "id": 4, "label": "Phone", "value": "+251931470920" },
+    { "id": 5, "label": "Address", "value": "Addis Ababa" },
+    { "id": 6, "label": "Email", "value": "yabilisanu@gmail.com" },
+    { "id": 7, "label": "Language", "value": "Amharic, English" }
   ],
   "counters": [
     {
