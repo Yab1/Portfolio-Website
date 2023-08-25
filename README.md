@@ -33,7 +33,7 @@ A user-friendly platform designed to help you create and manage your online port
 
 ## Screenshots
 
-![Screenshot](https://github.com/Yab1/TechVisions/blob/main/src/assets/screenshot.png)
+![Screenshot](https://github.com/Yab1/portfolio-website-1/blob/main/src/assets/screenshot.png)
 
 ## Contributing
 
@@ -41,7 +41,7 @@ Contributions are welcome! If you'd like to enhance Your Portfolio Website or ad
 
 ---
 
-Visit Site [Live Demo](https://portfolio-website-1-phi.vercel.app/)  
+Visit Site [Live Demo](https://portfolio-website-1-phi.vercel.app/)
 
 Connect with me:
 Visit my website at [Yeabsera](yeabsera-girxkocyp-yab1.vercel.app) | Follow me on [LinkedIn](https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/) | Check out my [GitHub](https://github.com/Yab1)
