@@ -76,48 +76,48 @@
   "projects": [
     {
       "id": 0,
-      "name": "Quizzical",
-      "languages": ["React", "Tailwind"],
-      "url": "https://quizzical-psi-one.vercel.app/",
-      "img": "https://github.com/Yab1/Quizzical/blob/main/src/assets/screenshot1.png",
+      "name": "WayFinder Plus",
+      "languages": ["React", "Firebase", "MapBox"],
+      "url": "https://way-finder-plus.vercel.app/",
       "top": true
     },
     {
       "id": 1,
-      "name": "Simple Notes",
-      "languages": ["React", "MUI"],
-      "url": "https://simple-notes-omega.vercel.app/",
-      "img": "",
+      "name": "WayFinder VR",
+      "languages": ["JavaScript", "Pananullem"],
+      "url": "https://yab1.github.io/WayFinderPlus-VR/",
       "top": true
     },
     {
       "id": 2,
-      "name": "WayFinder Plus",
-      "languages": ["React", "Firebase", "MUI"],
-      "url": "",
-      "img": "",
+      "name": "Free Portfolio Website",
+      "languages": ["React", "Tailwind"],
+      "url": "https://portfolio-website-3-nu.vercel.app/",
       "top": true
     },
     {
       "id": 3,
-      "name": "WayFinder Admin",
-      "languages": ["React", "Firebase", "MUI"],
-      "url": "",
-      "img": ""
+      "name": "Simple Notes",
+      "languages": ["React", "MUI"],
+      "url": "https://simple-notes-omega.vercel.app/"
     },
     {
       "id": 4,
-      "name": "WayFinder VR",
-      "languages": ["JavaScript", "SCSS"],
-      "url": "",
-      "img": ""
+      "name": "Free Portfolio Website",
+      "languages": ["React", "Tailwind"],
+      "url": "https://portfolio-website-2-eta.vercel.app/"
     },
     {
       "id": 5,
-      "name": "E Cart",
-      "languages": ["React", "MUI"],
-      "url": "",
-      "img": ""
+      "name": "WayFinder Admin",
+      "languages": ["React", "Firebase", "MUI"],
+      "url": "https://way-finder-plus-admin.vercel.app/"
+    },
+    {
+      "id": 6,
+      "name": "Quizzical",
+      "languages": ["React", "Tailwind"],
+      "url": "https://quizzical-psi-one.vercel.app/"
     }
   ],
   "address": {
