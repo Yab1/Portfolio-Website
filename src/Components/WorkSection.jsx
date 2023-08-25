@@ -129,7 +129,7 @@ export default class WorkSection extends Component {
           onClick={() => this.setState({ showMore: !this.state.showMore })}
         >
           <button className="uppercase underline text-yellow-400 hover:text-zinc-400 active:text-zinc-400 transition ease-out duration-500">
-            See All Projects
+            {this.state.showMore ? "View Less" : " See All Projects"}
           </button>
         </motion.div>
       </section>
