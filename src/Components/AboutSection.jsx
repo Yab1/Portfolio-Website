@@ -112,11 +112,11 @@ export default class AboutSection extends Component {
         <section className="flex flex-col lg:flex-row gap-5 lg:gap-10 xl:gap-15 my-16">
           {/* Information */}
           <section className="flex flex-col gap-5 md:w-full">
-            <p className="uppercase text-white text-md lg:text-lg font-extrabold text-center sm:text-left">
+            <p className="uppercase text-white text-md lg:text-lg font-extrabold">
               Personal Infos
             </p>
             <motion.div
-              className="grid sm:grid-cols-2 gap-3 justify-center w-full"
+              className="grid grid-cols-2 gap-3 justify-center w-full"
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
@@ -129,11 +129,11 @@ export default class AboutSection extends Component {
                   age = currentYear - info.value;
                 }
                 return (
-                  <p key={info.id} className="text-zinc-500">
+                  <p key={info.id} className="text-zinc-500 ">
                     {info.label}:
                     <span className="text-white">
                       {" "}
-                      {info.label === "Age" ? age : info.label}
+                      {info.label === "Age" ? `${age} years old` : info.value}
                     </span>
                   </p>
                 );
@@ -145,7 +145,7 @@ export default class AboutSection extends Component {
               variants={buttonVariants}
               whileHover="hover"
               download
-              href="src/assets/Yeabsera_Lisanework_Resume.pdf"
+              href="src/assets/Yeabsera_Lisanework.pdf"
             >
               download cv
               <motion.button
